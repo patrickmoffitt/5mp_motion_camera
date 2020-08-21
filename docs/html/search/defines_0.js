@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['adc_5f10_5fbit_5fcorrection',['ADC_10_BIT_CORRECTION',['../read__battery_8hpp.html#afa6e18ad6f4ccf2a35b1a299d143c7be',1,'read_battery.hpp']]],
+  ['adc_5fpin',['ADC_PIN',['../read__battery_8hpp.html#af458889265f213625129e2dd0707a69b',1,'read_battery.hpp']]],
+  ['advanced_5fawb',['Advanced_AWB',['../_ardu_c_a_m_8h.html#a9c732217ce448a5d952a571a4a4ba50a',1,'ArduCAM.h']]],
+  ['antique',['Antique',['../_ardu_c_a_m_8h.html#a02219c1e1780a72a37da6d6bf4af61eb',1,'ArduCAM.h']]],
+  ['arduchip_5ffifo',['ARDUCHIP_FIFO',['../_ardu_c_a_m_8h.html#af6132301e0f6a940eaefbaba3180b6fe',1,'ArduCAM.h']]],
+  ['arduchip_5fframes',['ARDUCHIP_FRAMES',['../_ardu_c_a_m_8h.html#adf232ea04c78a9e3ef3778799c9d796a',1,'ArduCAM.h']]],
+  ['arduchip_5fgpio',['ARDUCHIP_GPIO',['../_ardu_c_a_m_8h.html#adbd46e7e832ed647a3b2ff245ec48666',1,'ArduCAM.h']]],
+  ['arduchip_5fmode',['ARDUCHIP_MODE',['../_ardu_c_a_m_8h.html#a156aa461e1d4447a2ebaed3f405ea00f',1,'ArduCAM.h']]],
+  ['arduchip_5frev',['ARDUCHIP_REV',['../_ardu_c_a_m_8h.html#aa373d058971461a60f2ea05d1e5d9f74',1,'ArduCAM.h']]],
+  ['arduchip_5ftest1',['ARDUCHIP_TEST1',['../_ardu_c_a_m_8h.html#a7c224f04c33ed156d59b12eba2727cfb',1,'ArduCAM.h']]],
+  ['arduchip_5ftim',['ARDUCHIP_TIM',['../_ardu_c_a_m_8h.html#a8e7cb082b0f6c68b4fc7b6252643db90',1,'ArduCAM.h']]],
+  ['arduchip_5ftrig',['ARDUCHIP_TRIG',['../_ardu_c_a_m_8h.html#ae3b2584c4cdd1fdaa27aa887a6496339',1,'ArduCAM.h']]],
+  ['arduchip_5fversion_5fday',['ARDUCHIP_VERSION_DAY',['../_ardu_c_a_m___o_v5642_8hpp.html#a2ec175db7b3e691dc827d8b634e2aa22',1,'ArduCAM_OV5642.hpp']]],
+  ['arduchip_5fversion_5fmonth',['ARDUCHIP_VERSION_MONTH',['../_ardu_c_a_m___o_v5642_8hpp.html#a14351aeab8e976aee80878536de3e19a',1,'ArduCAM_OV5642.hpp']]],
+  ['arduchip_5fversion_5fyear',['ARDUCHIP_VERSION_YEAR',['../_ardu_c_a_m___o_v5642_8hpp.html#a3e347e7d2339292a79b1e0a01367f998',1,'ArduCAM_OV5642.hpp']]],
+  ['auto',['Auto',['../_ardu_c_a_m_8h.html#a294916ba169d51de31c5fdaa65e634cd',1,'ArduCAM.h']]],
+  ['auto_5fdetection',['Auto_Detection',['../_ardu_c_a_m_8h.html#a1d8df4f3ef69420579e0ed559c7092c2',1,'ArduCAM.h']]],
+  ['auto_5fsharpness1',['Auto_Sharpness1',['../_ardu_c_a_m_8h.html#afce0a6ad68c882bacdae7c01a22dffb1',1,'ArduCAM.h']]],
+  ['auto_5fsharpness2',['Auto_Sharpness2',['../_ardu_c_a_m_8h.html#a3f29cffefb8553c79726cd28e085400b',1,'ArduCAM.h']]],
+  ['auto_5fsharpness_5fdefault',['Auto_Sharpness_default',['../_ardu_c_a_m_8h.html#af1e261c93ea0227d8ce25f325ee7a8cc',1,'ArduCAM.h']]],
+  ['available_5ftimeout_5fms',['AVAILABLE_TIMEOUT_MS',['../_web_socket_client_8h.html#ae89e31ccf10cb0211f622427ee40b09f',1,'WebSocketClient.h']]]
+];

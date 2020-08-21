@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['debug_5fprint',['DEBUG_PRINT',['../serial__debug__error_8hpp.html#a88edd2aa4feabff4af21a997d5d8aa23',1,'serial_debug_error.hpp']]],
+  ['debug_5fprint_5fv',['DEBUG_PRINT_V',['../serial__debug__error_8hpp.html#a978be4bdb50add7a10cce725cc84e279',1,'serial_debug_error.hpp']]],
+  ['debug_5fprintbuffer',['DEBUG_PRINTBUFFER',['../serial__debug__error_8hpp.html#a543ee5caf996629c33b5a6283a5d82d1',1,'serial_debug_error.hpp']]],
+  ['debug_5fprintbuffer_5fv',['DEBUG_PRINTBUFFER_V',['../serial__debug__error_8hpp.html#a4aecafc3c712e522727902f5ba33d07c',1,'serial_debug_error.hpp']]],
+  ['debug_5fprinter',['DEBUG_PRINTER',['../serial__debug__error_8hpp.html#afe84d42042833e4e334c977b93ff2407',1,'serial_debug_error.hpp']]],
+  ['debug_5fprintln',['DEBUG_PRINTLN',['../serial__debug__error_8hpp.html#ae414eccb9fbdc7c0cc6edfc588a3aa34',1,'serial_debug_error.hpp']]],
+  ['debug_5fprintln_5fv',['DEBUG_PRINTLN_V',['../serial__debug__error_8hpp.html#a0e58e8e23ecc67ba1285ba92d7e4f510',1,'serial_debug_error.hpp']]],
+  ['decode',['decode',['../class_base64.html#adb2f0d13c3b1f7aae21c7c174686da04',1,'Base64::decode(char *buf_plain, const char *buf_coded)'],['../class_base64.html#aadccdd372fd90b799550d5d4dc224511',1,'Base64::decode(const std::string &amp;s)'],['../_m_d5_8c.html#a5a8e4fe7831ddbba29b0294cb20bbb5e',1,'Decode():&#160;MD5.c']]],
+  ['decode_5flen',['decode_len',['../class_base64.html#a8d6d2080a7976a47f86d51f8e3bf4a96',1,'Base64']]],
+  ['default_5fquality',['default_quality',['../_ardu_c_a_m_8h.html#a88b049d6357a1f4941021d7467430b2d',1,'ArduCAM.h']]],
+  ['degree120',['degree120',['../_ardu_c_a_m_8h.html#af69d2e2de2f87d9a37d3ec3f6c085ec1',1,'ArduCAM.h']]],
+  ['degree150',['degree150',['../_ardu_c_a_m_8h.html#a943c71f31c005315ff0bdb611cd8936b',1,'ArduCAM.h']]],
+  ['degree30',['degree30',['../_ardu_c_a_m_8h.html#a1fa2fbc924134606160567f3c5c9a66e',1,'ArduCAM.h']]],
+  ['degree60',['degree60',['../_ardu_c_a_m_8h.html#a9a67b8482c08406580a9b4188e9899f2',1,'ArduCAM.h']]],
+  ['degree90',['degree90',['../_ardu_c_a_m_8h.html#acae3c41c7938dd686fc8ad67e618efb6',1,'ArduCAM.h']]],
+  ['degree_5f0',['degree_0',['../_ardu_c_a_m_8h.html#ab4f34e98f1d092f0bc7a78dc034accbf',1,'ArduCAM.h']]],
+  ['degree_5f120',['degree_120',['../_ardu_c_a_m_8h.html#ad2077a62d4eda44789e3500d6d6788a9',1,'ArduCAM.h']]],
+  ['degree_5f150',['degree_150',['../_ardu_c_a_m_8h.html#a240c3be3c786c9882a5b82bca2b5932d',1,'ArduCAM.h']]],
+  ['degree_5f180',['degree_180',['../_ardu_c_a_m_8h.html#a9471fa80b9fd0564a5141429803b60c6',1,'ArduCAM.h']]],
+  ['degree_5f30',['degree_30',['../_ardu_c_a_m_8h.html#a81757e46d8524fd05cdeed393d822789',1,'ArduCAM.h']]],
+  ['degree_5f60',['degree_60',['../_ardu_c_a_m_8h.html#a0303585c224fdf6ff1c57a2a73f1dfaf',1,'ArduCAM.h']]],
+  ['degree_5f90',['degree_90',['../_ardu_c_a_m_8h.html#a812bba41f4c4d17851cc5f3e945ab9a6',1,'ArduCAM.h']]],
+  ['disconnectstream',['disconnectStream',['../class_web_socket_client.html#ac11a20a9336120d353fd09637447d163',1,'WebSocketClient::disconnectStream()'],['../class_web_socket_server.html#a65c0c8cc9d852b98af8df69f3234328b',1,'WebSocketServer::disconnectStream()']]],
+  ['dli',['DLI',['../_ardu_c_a_m_8h.html#a53e7301049db8fa71a8fcfe92bd0d0ec',1,'ArduCAM.h']]],
+  ['dumpbuffer',['dumpBuffer',['../serial__debug__error_8cpp.html#a6e7e440376c548ea2ff2568e3707b264',1,'dumpBuffer(const uint8_t *buffer, uint16_t len):&#160;serial_debug_error.cpp'],['../serial__debug__error_8hpp.html#a6e7e440376c548ea2ff2568e3707b264',1,'dumpBuffer(const uint8_t *buffer, uint16_t len):&#160;serial_debug_error.cpp']]]
+];

@@ -1,0 +1,28 @@
+var class_arducam___o_v5642 =
+[
+    [ "settings_type", "struct_arducam___o_v5642_1_1settings__type.html", "struct_arducam___o_v5642_1_1settings__type" ],
+    [ "Arducam_OV5642", "class_arducam___o_v5642.html#af6d7cc9a817222af8bca8468cd36fc2c", null ],
+    [ "capture", "class_arducam___o_v5642.html#ab28bdecafa559f9285e43729e12c3cf9", null ],
+    [ "cs_disable", "class_arducam___o_v5642.html#ad5db5d8e86e65a827708240b912593d2", null ],
+    [ "cs_enable", "class_arducam___o_v5642.html#a95a4d6476ae75c3ceab3dce14ac99dd1", null ],
+    [ "image_size", "class_arducam___o_v5642.html#a33c5e38a9bb3db44bec7b0fc21e004ed", null ],
+    [ "init_jpeg", "class_arducam___o_v5642.html#a34986a8eb65fef73092da1b6c3b2326b", null ],
+    [ "is_model_ov5642", "class_arducam___o_v5642.html#af5b7465345683290148ac9fe7205d449", null ],
+    [ "is_spi_ok", "class_arducam___o_v5642.html#aa2d7e3d21594912273e2a701d35aa381", null ],
+    [ "jpeg_quality", "class_arducam___o_v5642.html#acbb8f2044f2fccfce4b48a3804b0894a", null ],
+    [ "load_default_settings", "class_arducam___o_v5642.html#a73e78696d1e9e755ef1ce56379da36f2", null ],
+    [ "load_settings", "class_arducam___o_v5642.html#a31dda0cd890eb77bbeda8f6058d63cef", null ],
+    [ "print_settings", "class_arducam___o_v5642.html#a1f94f10460882810bf3581536c19f410", null ],
+    [ "read_chip_date", "class_arducam___o_v5642.html#ae9fdaa8a690804666c3ed75b3a87171e", null ],
+    [ "read_chip_version", "class_arducam___o_v5642.html#a760b9e960e8476a00c8038eb0d8b8de4", null ],
+    [ "reset_cpld", "class_arducam___o_v5642.html#ad6f7b9eaa30c3f2824c5d39a470d2075", null ],
+    [ "rewind_fifo_read_ptr", "class_arducam___o_v5642.html#a3c037ca32e0f055f6d36d9bcbea9fbc3", null ],
+    [ "rewind_fifo_write_ptr", "class_arducam___o_v5642.html#aa3a97e215a14fe602cbb8eb8d5646392", null ],
+    [ "sensor_pwr_off", "class_arducam___o_v5642.html#a667d575ca9dae16637cf6fc91e9d07d4", null ],
+    [ "sensor_pwr_on", "class_arducam___o_v5642.html#a3487a42f4852d11d686d81c348c68c78", null ],
+    [ "set_camera", "class_arducam___o_v5642.html#af67d14a3f4633b9de2a527ea86b753b7", null ],
+    [ "test_jpeg", "class_arducam___o_v5642.html#a48355c3cacb73e812e5628e617417254", null ],
+    [ "update_settings", "class_arducam___o_v5642.html#a0b1bfa850505121c1faa0e5ffde5f69f", null ],
+    [ "cmd", "class_arducam___o_v5642.html#acb3d0ac75f8723ea5eb4bb96b8ebd8a2", null ],
+    [ "settings", "class_arducam___o_v5642.html#a7981eb58a74231bccb0000abf8aa5dc0", null ]
+];

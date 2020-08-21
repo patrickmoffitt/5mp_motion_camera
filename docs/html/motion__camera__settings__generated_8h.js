@@ -1,0 +1,25 @@
+var motion__camera__settings__generated_8h =
+[
+    [ "FLATBUFFERS_FINAL_CLASS", "struct_o_v5642___settings_1_1_f_l_a_t_b_u_f_f_e_r_s___f_i_n_a_l___c_l_a_s_s.html", "struct_o_v5642___settings_1_1_f_l_a_t_b_u_f_f_e_r_s___f_i_n_a_l___c_l_a_s_s" ],
+    [ "SettingsBuilder", "struct_o_v5642___settings_1_1_settings_builder.html", "struct_o_v5642___settings_1_1_settings_builder" ],
+    [ "CreateSettings", "motion__camera__settings__generated_8h.html#abfcd94d8bbec694132e927c8a894d3d3", null ],
+    [ "FinishSettingsBuffer", "motion__camera__settings__generated_8h.html#a6c04cb8082276835a924a28877d83e09", null ],
+    [ "FinishSizePrefixedSettingsBuffer", "motion__camera__settings__generated_8h.html#acdf5c7db2206224411370105a6f43779", null ],
+    [ "GetMutableSettings", "motion__camera__settings__generated_8h.html#a73babaf44ad1f13344e55eb4b4118577", null ],
+    [ "GetSettings", "motion__camera__settings__generated_8h.html#aa6104beb530c6ea737b04770378a82ed", null ],
+    [ "GetSizePrefixedSettings", "motion__camera__settings__generated_8h.html#a2270dd840d6bf14d747e80f23ef0f757", null ],
+    [ "VerifySettingsBuffer", "motion__camera__settings__generated_8h.html#aba2ec33eef15296c209234e028fee657", null ],
+    [ "VerifySizePrefixedSettingsBuffer", "motion__camera__settings__generated_8h.html#a8b901149e57e4aeac0004c5237bc6746", null ],
+    [ "VT_BRIGHTNESS", "motion__camera__settings__generated_8h.html#a9ba0d6be3e7fa9a615fe0dabb50b68c2", null ],
+    [ "VT_COLOR_SATURATION", "motion__camera__settings__generated_8h.html#a38750b56837d15205e84ac23d5027bcd", null ],
+    [ "VT_CONTRAST", "motion__camera__settings__generated_8h.html#ac0a1ac3d4632a76d54b74df0102823a2", null ],
+    [ "VT_EFFECT", "motion__camera__settings__generated_8h.html#a3e6561d01805a5a96674ae4abcb48ff6", null ],
+    [ "VT_EXPOSURE", "motion__camera__settings__generated_8h.html#a855fe79619d2d4fae95b0a51eafc87bf", null ],
+    [ "VT_FRAMES", "motion__camera__settings__generated_8h.html#abc0e2753589e27cae1e6d4f109ceb1fe", null ],
+    [ "VT_HUE", "motion__camera__settings__generated_8h.html#ac866e28ac7e16bd342a7ce680254e8fe", null ],
+    [ "VT_JPEG_SIZE", "motion__camera__settings__generated_8h.html#af23966f32a3336b9af2c4ab7de13bb6d", null ],
+    [ "VT_LIGHT_MODE", "motion__camera__settings__generated_8h.html#a8ca99ca58d0f71290af941646805083b", null ],
+    [ "VT_MIRROR", "motion__camera__settings__generated_8h.html#adad7b7a9f3144cfc61d24a4cfff46ae8", null ],
+    [ "VT_QUALITY", "motion__camera__settings__generated_8h.html#af7ec520f91f500bc9185e53679d3c007", null ],
+    [ "VT_SHARPNESS", "motion__camera__settings__generated_8h.html#aa00c2beee7597b921552e60ad863c60d", null ]
+];
