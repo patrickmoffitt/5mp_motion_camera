@@ -122,6 +122,10 @@ Bugs, Issues, and Pull Requests
 ------------------------------
 If you find a bug please create an issue. If you'd like to contribute please send a pull request.
 
+Documentation
+-------------
+I used Doxygen to create the project documentation. [You can read it here.](https://patrickmoffitt.github.io/5mp_motion_camera/)
+
 References
 ----------
 The following were helpful references in the development of this project.
