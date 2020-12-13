@@ -29,6 +29,7 @@
  * @param len the length of the data buffer
  */
 void printBuffer(const uint8_t *buffer, uint16_t len) {
+#ifdef DEBUG_PRINTER
     for (uint16_t i=0; i<len; i++) {
         if (isprint(buffer[i])) {
             DEBUG_PRINTER.write(buffer[i]);
@@ -46,6 +47,7 @@ void printBuffer(const uint8_t *buffer, uint16_t len) {
         }
     }
     DEBUG_PRINTER.println();
+#endif
 }
 
 /**
@@ -58,6 +60,7 @@ void printBuffer(const uint8_t *buffer, uint16_t len) {
  * @param len the length of the data buffer
  */
 void dumpBuffer(const uint8_t *buffer, uint16_t len) {
+#ifdef DEBUG_PRINTER
     for (uint16_t i=0; i<len; i++) {
         if (buffer[i] < 0x10) {
             DEBUG_PRINTER.print("0");
@@ -66,6 +69,7 @@ void dumpBuffer(const uint8_t *buffer, uint16_t len) {
         DEBUG_PRINTER.print(" ");
     }
     DEBUG_PRINTER.println();
+#endif
 }
 
 /**
@@ -73,9 +77,11 @@ void dumpBuffer(const uint8_t *buffer, uint16_t len) {
  * @param buffer the data to print
  */
 void printByte(const uint8_t *buffer) {
+#ifdef DEBUG_PRINTER
     DEBUG_PRINTER.print(F(" 0x"));
     if (*buffer < 0x10)
         DEBUG_PRINTER.print("0");
     DEBUG_PRINTER.print(*buffer, HEX);
     DEBUG_PRINTER.print(", ");
+#endif
 }

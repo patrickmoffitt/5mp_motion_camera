@@ -23,8 +23,6 @@
 #include <USB/USBAPI.h>
 #include <stdint.h>
 
-extern Serial_ Serial;
-
 /// Uncomment/comment to turn on/off debug output messages.
 // #define SERIAL_DEBUG
 /// Uncomment/comment to turn on/off verbose debug output messages.
@@ -33,7 +31,7 @@ extern Serial_ Serial;
 // #define SERIAL_ERROR
 
 /// Set where debug messages will be printed.
-#define DEBUG_PRINTER Serial
+// #define DEBUG_PRINTER Serial
 // If using something like Zero or Due, change the above to SerialUSB
 
 /// Define actual debug output functions when necessary.
