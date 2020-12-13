@@ -36,7 +36,8 @@ feather_m0_sleep_wake_RCWL_0516::~feather_m0_sleep_wake_RCWL_0516() {
  * main::interrupt_service_routine() running while we're going to sleep.
  */
 void feather_m0_sleep_wake_RCWL_0516::go_to_sleep() {
-    DEBUG_PRINT(F("Sleeping. ")); DEBUG_PRINTLN(F("ZZZzzz...\n"));
+    DEBUG_PRINT(F("Sleeping. "));
+    DEBUG_PRINTLN(F("ZZZzzz...\n"));
     noInterrupts();
     __DSB();
     __WFI(); // (Wake From Interrupt).
