@@ -78,7 +78,7 @@ void hardware_control::setup_camera() {
 void hardware_control::setup_motion_sensor(void (*isr)()) {
     pinMode(MOTION_PIN, INPUT_PULLDOWN);
     attachInterrupt(digitalPinToInterrupt(MOTION_PIN), isr, RISING);
-    pinMode(PIN_A0, OUTPUT);
+    pinMode(PIN_A0, INPUT_PULLDOWN);
 }
 
 /**
