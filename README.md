@@ -28,16 +28,16 @@ new-school way to move relatively-small, fixed length, data structures around th
 flatBuffers project provides libraries in many languages so that it's easy to go from JavaScript to C++ and back. This 
 project includes both old and new school data communication methods for at least two reasons;
 - There is still a whole lot of legacy code in use and not every robotics/embedded project starts from scratch. Often
-new technology must be integrated with old technology; CAN bus, MQTT, and Base64 are just a few examples.
+  new technology must be integrated with old technology; CAN bus, MQTT, and Base64 are just a few examples.
 - The Internet of Things needs very efficient, low-power, machine-to-machine communication and projects like flatBuffers
-are a good solution. The need is so ubiquitous it's essential that everyone in the robotics/embedded space is familiar
-with such solutions.
+  are a good solution. The need is so ubiquitous it's essential that everyone in the robotics/embedded space is familiar
+  with such solutions.
 
 Schematic
 ---------
-![Eechema Schematic](images/5MP_Motion_Camera_v1_2.jpg)
-- [Eechema Schematic PDF](images/5MP_Motion_Camera_v1_2.pdf)
-- [Eechema Schematic](images/5MP_Motion_Camera_v1_2.sch)
+![Eechema Schematic](images/5MP_Motion_Camera_v1_3.jpg)
+- [Eechema Schematic PDF](images/5MP_Motion_Camera_v1_3.pdf)
+- [Eechema Schematic](images/5MP_Motion_Camera_v1_3.sch)
 
 Building
 --------
@@ -78,6 +78,7 @@ Materials List
 - [Lithium Ion Battery Pack - 3.7V 6600mAh](https://www.adafruit.com/product/353)
 - [Uxcell 80mm x 110mm x 70mm ABS Junction Box with PC Transparent Cover](https://www.amazon.com/gp/product/B0723DW5TT)
 - [8mm Mini 1NO 2Pin Metal Momentary Push Button Switch](https://www.amazon.com/gp/product/B077VPPFCX)
+- [Mini Toggle Switch SPST with Waterproof Cap](https://www.amazon.com/gp/product/B07PJGFYTX)
 - [Panel Mount 2.1mm DC barrel jack](https://www.adafruit.com/product/610)
 - [USB to 2.1mm Male Barrel Jack Cable](https://www.adafruit.com/product/2697)
 - [Pololu 5V Step-Up Voltage Regulator U1V11F5](https://www.pololu.com/product/2562)
@@ -88,12 +89,37 @@ Materials List
 Notes on Construction
 ---------------------
 - I replaced the stock 90 degree headers on the camera with straight headers to better suit my enclosure. Since I have a 
-de-soldering gun this was relatively easy for me to do.
+  de-soldering gun this was relatively easy for me to do.
 - In the past I've gotten junction boxes with transparent covers that are very clear and see-through. That wasn't the 
-case this time so I installed the (optional) glass disk as a porthole for the camera to see through. 
+  case this time so I installed the (optional) glass disk as a porthole for the camera to see through. 
+- After field testing I learned that the Feather can't charge the battery when the 5V regulators are on the battery bus.
+  These now have a switch for "run mode" (on) and "charge mode" (off).
+  
+Notes on the Doppler Radar Motion Sensor
+----------------------------------------
+It now seems obvious in hindsight that the motion sensor never wanted to be perched on top of the prototyping board. 
+That put it too close to the Feather and it's 2.4 MHz WiFi radio. The sensor uses the same band. Field testing gave very
+weird and inconsistent motion detection results so I added a cable to the sensor and used some museum putty to stick it 
+to the inside front cover away from the Feather. This immediately gave excellent and reliable detection results.
 
-Images
-------
+![5mp_mc_09.jpg](images/5mp_mc_09.jpg)
+  
+Detections now occur as expected. Most happen as the subject moves toward the sensor and away from it. They also
+happen when a large enough subject (a firetruck or delivery van) sweeps past in the street.
+
+![ups_man.jpeg](images/ups_man.jpeg)
+
+![amazon_man.jpeg](images/amazon_man.jpeg)
+
+![amazon_van.jpeg](images/amazon_van.jpeg)
+
+![fire_dept_on_parade.jpeg](images/fire_dept_on_parade.jpeg)
+
+To ge the best color balance take at least four shots together. The camera seems to need that many frames to get the 
+color correct.
+
+Assembly Images
+---------------
 ![5mp_mc_01.jpg](images/5mp_mc_01.jpg)
 
 ![5mp_mc_02.jpg](images/5mp_mc_02.jpg)

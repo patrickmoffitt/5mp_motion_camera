@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "5 Mega-Pixel Motion Camera"
-Date "2020-06-12"
-Rev "1.2"
+Date "2021-01-09"
+Rev "1.3"
 Comp ""
 Comment1 "This schematic is in the public domain."
 Comment2 "Arducam OV5642 5MP Camera, RCWL-0516, Pololu #2562"
@@ -186,8 +186,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 4600 4050 4600
 Wire Wire Line
-	4050 4600 4050 4050
-Wire Wire Line
 	4050 4050 3450 4050
 Wire Wire Line
 	4400 3650 4400 5000
@@ -205,9 +203,6 @@ Wire Wire Line
 	2550 5200 4800 5200
 Wire Wire Line
 	4750 2850 4050 2850
-Wire Wire Line
-	4050 2850 4050 4050
-Connection ~ 4050 4050
 Wire Wire Line
 	4750 1650 4400 1650
 Wire Wire Line
@@ -243,4 +238,22 @@ Wire Wire Line
 	4500 1750 4500 2350
 Wire Wire Line
 	4500 2350 4750 2350
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5FFA1C81
+P 3850 2850
+F 0 "SW2" H 3850 2650 50  0000 C CNN
+F 1 "BATT_SW_SPST" H 3850 2750 50  0000 C CNN
+F 2 "" H 3850 2850 50  0001 C CNN
+F 3 "~" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4600 4050 4050
+Wire Wire Line
+	3450 4050 3450 2850
+Wire Wire Line
+	3450 2850 3650 2850
+Connection ~ 3450 4050
 $EndSCHEMATC
